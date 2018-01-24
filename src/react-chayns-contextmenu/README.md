@@ -32,7 +32,7 @@ You can init your **ContextMenu** like this:
 
  **Important:** You will need a bundler for the component styles. If you are not familiar with things like webpack or gulp take a look at our [chayns-React-ES6 Template ][1]. The bundler **must** include the node modules, otherwise you will get an compatibility error.
 
-
+Note: To get the mouseposition when clicked you need to use event.pageX / event.pageY.
 
 ### Props ###
 The component got the following properties:
